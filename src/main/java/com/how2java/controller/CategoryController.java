@@ -30,7 +30,7 @@ public class CategoryController {
 		int total = (int) new PageInfo<>(cs).getTotal();
 		
 		page.caculateLast(total);
-		
+		System.out.println("wanzhen is a sb!");
 		// 放入转发参数
 		mav.addObject("cs", cs);
 		// 放入jsp路径
